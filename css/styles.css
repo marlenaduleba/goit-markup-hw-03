@@ -10,6 +10,13 @@
   --background-color-secondary: #f5f4fa;
 }
 
+li{
+  list-style: none;
+}
+
+.container{
+  width: 1200px;
+}
 body {
   font-family: var(--font-primary);
   color: var(--font-color-primary);
