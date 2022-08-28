@@ -70,7 +70,7 @@ body {
 }
 
 /* *********   HEADER  ********************/
-.navigation-links {
+.navigation-links,.navigation-links-active {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -240,6 +240,19 @@ display: block;
   font-size: 16px;
   line-height: 1.187;
 }
+
+/************* PORTFOLIO **************/
+/* .page-main{
+ 
+
+}
+
+.wrapper{
+  flex-wrap: wrap;
+} */
+
+
+
 .button-filter {
   font-weight: 500;
   font-size: 16px;
