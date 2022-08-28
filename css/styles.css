@@ -20,6 +20,10 @@ h1, h2,h3, p{
   margin: 0;
 }
 
+img{
+  display: block;
+}
+
 .container{
   width: 1200px;
   display: inline-block;
@@ -152,27 +156,85 @@ body {
   background-color: var(--font-color-tertiary);
 }
 
+.section-descriptions-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-descriptions-list-item{
+  display: inline-block;
+  width: 270px;
+  height: 101px;
+}
+
+.section-descriptions-list-item:not(:last-of-type){
+  margin-right: 30px;
+}
+
+
 .section-descriptions-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   color: var(--font-color-secondary);
+  margin-bottom: 10px;
 }
 .section-descriptions-list-description {
   font-size: 14px;
   line-height: 1.714;
 }
+
+.section-title
+{display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   color: var(--font-color-secondary);
 }
+
+.section-images-list{
+display: flex;
+justify-content: space-between;
+}
+
+.section-gray{
+  background-color: var(--background-color-secondary);
+}
+
+.section-gray-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-gray-list-item{
+width: 270px;
+height: 368px;
+display: block;
+}
+
+.section-gray-figure{
+  margin: 0;
+}
+
+.section-gray-figcaption{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--font-color-quaternary);
+}
+
+
 .employee-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   color: var(--font-color-secondary);
+  margin-bottom: 10px;
 }
 .employee-position {
   font-size: 16px;
@@ -206,7 +268,9 @@ body {
 /* *********   FOOTER  ********************/
 .page-bottom {
   background-color: var(--background-color-primary);
-}
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 .contacts-bottom {
   font-size: 14px;
   line-height: 1.714;
