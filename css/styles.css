@@ -114,7 +114,6 @@ body {
   display: flex;
 }
 
-
 .header-right{
   display: block;
 }
@@ -122,6 +121,11 @@ body {
 .link-gap{
   margin-right: 50px;
 }
+
+.page-top{
+  border-bottom: 1px solid #ECECEC;
+}
+
 /* *********MAIN ********************/
 
 .block-main {
