@@ -289,6 +289,9 @@ flex-basis: calc((100%-60px)/3);
 
 .images-list-figcaption{
   padding: 20px 24px;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
 }
 
 .project-title {
