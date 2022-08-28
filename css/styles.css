@@ -270,14 +270,29 @@ display: block;
   background-color: var(--background-color-primary);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.page-bottom .logo-link{
+  display: block;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.page-bottom .container{
+display: block;
+}
 
 .contacts-bottom {
   font-size: 14px;
   line-height: 1.714;
   font-style: normal;
   color: var(--font-color-quaternary);
+  display: block;
+  width: 246px;
+  height: 81px;
 }
 .contacts-links-bottom {
   text-decoration: none;
   color: var(--font-color-transparent);
+  margin-bottom: 9px;
 }
