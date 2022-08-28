@@ -217,7 +217,7 @@ height: 368px;
 display: block;
 }
 
-.section-gray-figure{
+.figure{
   margin: 0;
 }
 
@@ -241,24 +241,33 @@ display: block;
   line-height: 1.187;
 }
 
-/************* PORTFOLIO **************/
-/* .page-main{
- 
+/************* PORTFOLIO ***************/
 
+
+.filters-list{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-.wrapper{
-  flex-wrap: wrap;
-} */
-
-
-
 .button-filter {
+  font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   color: var(--font-color-secondary);
+  background-color: var(--background-color-secondary);
+  border-radius: 4px;
+  padding: 6px 22px;
+  border-style: none;
+
 }
+
+.filters-list-item:not(:last-child){
+  display: block;
+  margin-right: 8px;
+}
+
 .button-filter:hover,
 .button-filter:focus,
 .button-main:hover,
@@ -267,6 +276,18 @@ display: block;
   color: var(--font-color-quaternary);
   background-color: var(--font-color-tertiary);
 }
+
+.container .images-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.images-list .figure{
+flex-basis: calc((100%-60px)/3);
+}
+
+
 .project-title {
   font-weight: 700;
   font-size: 18px;
