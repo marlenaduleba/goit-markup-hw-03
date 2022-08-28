@@ -10,16 +10,33 @@
   --background-color-secondary: #f5f4fa;
 }
 
-li{
+ul{
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2,h3, p{
+  margin: 0;
 }
 
 .container{
   width: 1200px;
+  display: inline-block;
+  margin: 0 auto;
+
+}
+
+.section{
+  display: flex;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 body {
   font-family: var(--font-primary);
   color: var(--font-color-primary);
+  margin: 0;
 }
 .logo-link .logo-link-dark-theme:hover,
 .logo-link .logo-link-dark-theme:focus,
@@ -39,6 +56,7 @@ body {
   line-height: 1.192;
   color: var(--font-color-tertiary);
   text-decoration: none;
+  margin-right: 93px;
 }
 .logo-link-dark-theme {
   color: var(--font-color-secondary);
@@ -54,6 +72,8 @@ body {
   line-height: 1.142;
   color: var(--font-color-secondary);
   text-decoration: none;
+  display: block;
+  margin-right: 46px;
 }
 
 .navigation-links-active {
@@ -71,9 +91,38 @@ body {
   color: var(--font-color-primary);
   text-decoration: none;
 }
+
+.page-top .container{
+  padding-top: 24px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-list{
+  display: flex;
+}
+
+
+.header-right{
+  display: block;
+}
+
+.link-gap{
+  margin-right: 50px;
+}
 /* *********MAIN ********************/
 
 .block-main {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--background-color-primary);
 }
 
@@ -81,13 +130,29 @@ body {
   font-size: 44px;
   line-height: 1.363;
   color: var(--font-color-quaternary);
+  margin-bottom: 30px;
 }
+
+.block-main .container,.title-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .button-main {
+  width: 200px;
+  height: 50px;
+  padding: 10px 41px 10px 42px;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   color: var(--font-color-quaternary);
   background-color: var(--font-color-tertiary);
+}
+
+
 }
 .section-descriptions-list-title {
   font-weight: 700;
